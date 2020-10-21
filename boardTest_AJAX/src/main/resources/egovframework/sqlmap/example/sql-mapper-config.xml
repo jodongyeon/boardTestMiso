@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+<!-- 기존의 선언되어있는 유형의 별칭을 사용하여 코드를 더 읽기쉽게 -->
+    <typeAliases>
+		<typeAlias alias="egovMap" type="egovframework.rte.psl.dataaccess.util.EgovMap"/>
+		<typeAlias alias="testVO" type="egovframework.example.test.domain.TestVO"/>
+    </typeAliases>
+</configuration>
